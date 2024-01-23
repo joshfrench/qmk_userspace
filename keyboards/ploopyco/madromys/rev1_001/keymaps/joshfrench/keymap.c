@@ -45,7 +45,7 @@ tap_dance_action_t tap_dance_actions[] = {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT( KC_BTN1, KC_BTN5, KC_BTN4, KC_BTN2, TD(TD_BTN1), KC_BTN3 )
+    [0] = LAYOUT( KC_BTN1, KC_BTN4, KC_BTN5, KC_BTN2, TD(TD_BTN1), KC_BTN3 )
 };
 
 static void setup_fake_record(uint8_t col, uint8_t row, bool pressed);
